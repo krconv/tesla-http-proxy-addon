@@ -35,4 +35,6 @@ WORKDIR /data
 COPY rootfs /
 RUN chmod a+x /app/run.sh
 
+ENV TESLA_VERBOSE=true
+
 CMD [ "/app/run.sh" ]
