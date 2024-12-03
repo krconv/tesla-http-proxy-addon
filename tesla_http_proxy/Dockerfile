@@ -4,7 +4,7 @@ FROM $BUILD_FROM as builder
 RUN apk add --no-cache go git
 
 # install Tesla Go packages
-ARG TESLA_MOTORS_SHA=915bc9e2700afee871cd185d2386aeecbd00eeb1
+ARG TESLA_MOTORS_SHA=8be54ba48d3d4356ae65b95a3b5f95506b4dd4d7
 RUN TESLA_MOTORS_SHA=${TESLA_MOTORS_SHA} \
   git clone https://github.com/krconv/vehicle-command.git /vehicle-command
 WORKDIR /vehicle-command

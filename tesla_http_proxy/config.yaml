@@ -1,5 +1,5 @@
 name: "Tesla HTTP Proxy (Custom)"
-version: "2.2.10"
+version: "2.2.11"
 slug: "tesla_http_proxy"
 description: "Proxy requests for Tesla Fleet API"
 url: "https://github.com/krconv/tesla-http-proxy-addon/tree/main/tesla_http_proxy"
