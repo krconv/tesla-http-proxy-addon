@@ -1,5 +1,5 @@
 name: "Tesla HTTP Proxy (Custom)"
-version: "2.2.8"
+version: "2.2.9"
 slug: "tesla_http_proxy"
 description: "Proxy requests for Tesla Fleet API"
 url: "https://github.com/krconv/tesla-http-proxy-addon/tree/main/tesla_http_proxy"
@@ -37,4 +37,3 @@ hassio_api: true
 stage: experimental
 ports:
   443/tcp: 4430
-image: "ghcr.io/llamafilm/tesla_http_proxy_{arch}"
